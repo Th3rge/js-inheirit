@@ -29,10 +29,21 @@ person.place = 'Kalifado';
 delete person.name;
 console.log(person);
 
+
+
 if ('place' in person) {
   console.log(`place exists. The place is: ${person.place}`);
 }
 
+
+
+//Primeira forma
 for (const key in person) {
   console.log(`${key}: ${person[key]}`);
 }
+
+
+//Segunda forma
+Object.keys(person).forEach(key => {
+  console.log(`${key}: ${person[key]}`);
+})
