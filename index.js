@@ -5,6 +5,11 @@
 // const appDiv = document.getElementById('app');
 // appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
+/**
+ * Praticando esta cheatcheet
+ * https://www.instagram.com/p/Cr7mCoAttmq/
+ */
+
 const person = {
   name: 'Sally',
   age: 23,
